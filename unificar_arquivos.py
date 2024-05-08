@@ -6,7 +6,7 @@ class unificar_arquivos:
         self.arquivos = arquivos
         self.arquivos_gerais = []
 
-    def unificando(self):
+    def unificar(self):
         for arquivo in self.arquivos.retornar_arquivos():
             coletar = coletar_dados_txt("arquivos_do_mes\\" + arquivo)
             for coleta in coletar.instanciar_dados():
