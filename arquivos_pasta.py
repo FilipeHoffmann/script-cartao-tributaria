@@ -5,7 +5,7 @@ class arquivos_pasta:
         self.caminho:str = caminho
         self.arquivos = []
 
-    def nomear_arquivos(self)-> list:
+    def retornar_arquivos(self)-> list:
         arquivos = os.listdir(self.caminho)
 
         for arquivo in arquivos:
