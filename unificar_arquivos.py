@@ -10,5 +10,5 @@ class unificar_arquivos:
         for arquivo in self.arquivos.retornar_arquivos():
             coletar = coletar_dados_txt("arquivos_do_mes\\" + arquivo)
             for coleta in coletar.instanciar_dados():
-                self.arquivos_gerais.append(coleta)
+                self.arquivos_gerais.append(coleta.split(";"))
         return self.arquivos_gerais
