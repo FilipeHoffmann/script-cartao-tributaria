@@ -6,5 +6,4 @@ class somar_credito_debito:
         for i in range(len(self.lista_cnpj_valor)):
             self.lista_cnpj_valor[i][1] = float(self.lista_cnpj_valor[i][1]) + float(self.lista_cnpj_valor[i][2])
             self.lista_cnpj_valor[i].pop()
-            print(self.lista_cnpj_valor[i])
         return self.lista_cnpj_valor
