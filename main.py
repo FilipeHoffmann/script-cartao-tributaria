@@ -12,7 +12,6 @@ if __name__ == "__main__":
     cnpj = unificado_cnpj.unificar()
     soma = somar_credito_debito(cnpj)
     total = soma.somar()
-    print(total)
     salvar = salvar_dados(total)
     salvar.salvar()
     pass
