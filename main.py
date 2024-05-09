@@ -7,5 +7,7 @@ if __name__ == "__main__":
     unificar = unificar_arquivos(arquivo)
     dados_unificados = unificar.unificar()
     unificado_cnpj = unificar_por_cnpj(dados_unificados)
-    print(unificado_cnpj.unificar())
+    cnpj = unificado_cnpj.unificar()
+    for i in range(len(cnpj)):
+        print(cnpj[i])
     pass
