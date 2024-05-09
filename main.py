@@ -1,9 +1,11 @@
 from arquivos_pasta import arquivos_pasta
 from unificar_arquivos import unificar_arquivos
+from unificar_por_cnpj import unificar_por_cnpj
+
 if __name__ == "__main__":
     arquivo = arquivos_pasta("arquivos_do_mes")
     unificar = unificar_arquivos(arquivo)
     dados_unificados = unificar.unificar()
-    for i in range(len(dados_unificados)):
-        print(dados_unificados[i])
+    unificado_cnpj = unificar_por_cnpj(dados_unificados)
+    print(unificado_cnpj.unificar())
     pass
