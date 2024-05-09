@@ -1,8 +1,7 @@
-from arquivos_pasta import arquivos_pasta
 from coletar_dados_txt import coletar_dados_txt
 
 class unificar_arquivos:
-    def __init__(self,arquivos: arquivos_pasta):
+    def __init__(self,arquivos):
         self.arquivos = arquivos
         self.arquivos_gerais = []
 
