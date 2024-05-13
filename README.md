@@ -2,5 +2,12 @@
 
 Bot para a formatação dos dados fornecidos pelo SEFAZ.
 
-- Converter os dados presentes nos arquivos .txt para uma planilha.
+Objetivo:
+
 - Somar todos os valores (crédito e débito) por CNPJ sem distinção de banco.
+- Converter os dados nos arquivos .txt presentes na pasta arquivos_do_mes para uma planilha.
+
+Passo a passo:
+
+1. Copie os arquivos contendo os as informações para 
+
